@@ -1,0 +1,62 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/background/night3.jpg) no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+header h1{
+	margin:0 0 20px 20px;
+	padding-top: 15px;
+	font-size: 90px;
+	color:whitesmoke;
+	letter-spacing: 2px;
+}
+#result{
+	width: 80%;
+	margin: 0 auto;
+}
+#loading{
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	transition: all 1s;
+	-webkit-transition:all 1s;
+}
+#loading.hide{
+	opacity: 0;
+}
+#icon,#sport,#progress{
+	transition: opacity 1s .5s;
+	opacity: 0;
+	color:white;
+	font-size: 3em;
+	text-align: center;
+}
+#sport{
+	padding-top: 16%;
+}
+#icon{
+	float: right;
+	padding-top: 12%;
+}
+#icon.show,#sport.show,#progress.show{
+	opacity: 1;
+}
+#index{
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 10000;
+	background: black;
+}
+#index a{
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}

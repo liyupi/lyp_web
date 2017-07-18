@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+*,*:before,*:after{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	word-wrap: break-word;
+}
+.bg {
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:-999;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style-type: none;
+}
+#container{
+	margin:0 auto;
+}
+nav i{
+	margin:0 5px;
+}
+nav li{
+	font-size: 32px;
+	display: inline;
+	margin-left: 30px;
+}
+nav a{
+	color: white;
+}
+nav .home:hover{
+	color:#fbbb0c;
+}
+nav .camera:hover{
+	color:greenyellow;
+}
+nav .heart:hover{
+	color:red;
+}
+nav .gamepad:hover{
+	color:yellow;
+}
+nav .group:hover{
+	color:mediumpurple;
+}
+header h1{
+	margin:0 0 20px 20px;
+	padding-top: 15px;
+	font-size: 90px;
+	color:whitesmoke;
+}
+article{
+	height:570px;
+}
+article .moon{
+	width: 8%;
+	height: 14%;
+	position: fixed;
+	top:38.5%;
+	left:46%;
+	border-radius: 50%;
+}
+footer p{
+	text-align: center;
+	color:white;
+	font-size: larger;
+	padding-bottom: 10px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	margin:0 auto;
+}
